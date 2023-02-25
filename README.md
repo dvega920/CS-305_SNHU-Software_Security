@@ -9,7 +9,7 @@ My client Artemis Financial is a consulting company that provides financial plan
 
 What I did very well was to analyze the vulnerabilities that were identified by researching each CVE to determine if there was a solution. If a solution was provided via a software update or patch then I could supress the CVE so that it no longer appeared on my report. This would allow me to focus soleley on the open vulnerabilities. Another thing I thought I did well was to perform an analysis of the existing code base to see where I could implement security features such as validation, and error handling. 
     
-The importance of secure coding is so that non-public information remains private. Ideally, security should be implemnted at the start of the software development life cycle. The main benefit to this is to reduce business risks by catching potential security flaws early on rather than during testing. Implementing security throughout the SDLC also mitigates the need for additional overhead (Maayan, 2019).
+The importance of secure coding is so that non-public information remains private. Ideally, security should be implemented at the start of the software development life cycle. The main benefit to this is to reduce business risks by catching potential security flaws early on rather than during testing. Implementing security throughout the SDLC also mitigates the need for additional overhead (Maayan, 2019).
 
 ## What part of the vulnerability assessment was challenging or helpful to you?
 
@@ -19,6 +19,8 @@ I think the challenging part of the vulnerability assessment was how to interpre
 ## How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
 I was able to increase the layers of security by assessing the impact that a security breach could cause on the business for the type of industry. Because Artemis Financial services both domestic and international accounts, It made sense to implement a AES-128 encryption over AES-256. I think for extra peace of mind it might be worth it but AES-128 has never been cracked so it should suffice to meet the needs of Artemis Financial. The U.S. government is confident in AES-128 encryption for classified information so there is no reason why Artemis Financial should feel any less secure.
+
+In future projects, I may be inclined to expand on security by implementing a proxy server and load balancers depending on the amount of web traffic the site is getting to improve performance and to offer more security since the client will only need to worry about the proxy and the proxy would only need to worry about the web server. This  creates a barrier between client and server essentially adding security as a separate layer.
 
 
 ## How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
@@ -30,7 +32,7 @@ In addition, I also checked to make sure that the site was secure by checking th
 
 ## What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
-The resources, tools and coding practices I used that helped me in this project was NIST.gov, OWASP Dependency check. I haven't had too much exposure to Java but as I progress through this degree program, I am introduced to new tools and resources that I didn't know existed. The NIST.gov website was a wealth of knowledge about vulnerabilities and the OWASP Dependency Check tool really helped to streamline the identification of these vulnerabilities. It may not provide all the vulnerabilities of the project but certainly enough to implement some useful security features.
+The resources, tools and coding practices I used that helped me in this project was NIST.gov, and OWASP Dependency Check. I haven't had too much exposure to Java but as I progress through this degree program, I am introduced to new tools and resources that I didn't know existed. The NIST.gov website was a wealth of knowledge about vulnerabilities and the OWASP Dependency Check tool really helped to streamline the identification of these vulnerabilities. It may not provide all the vulnerabilities of the project but certainly enough to implement some useful security features.
 
 
 ## Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
@@ -42,19 +44,15 @@ I think it is good to show employers that you understand the tools and resources
 
 Cloudflare, (2023). What is an SSL Certificate?. Cloudflare. 
     
-    Retrieved February 25, 2023. 
+    Retrieved February 25, 2023. https://www.cloudflare.com/learning/ssl/what-is-an-ssl-
     
-    https://www.cloudflare.com/
-    
-    learning/ssl/what-is-an-ssl-certificate/  
+    certificate/  
 
 Maayan, Gilad David (2019, July 12). *How You Should Approach the   
     
-    Secure Development Lifecycle.* Dataversity. Retrieved 
+    Secure Development Lifecycle.* Dataversity. Retrieved February 22, 2023. 
     
-    February 22, 2023. https://www.dataversity.net/
-    
-    how-you-should-approach-the-secure-development-
+    https://www.dataversity.net/how-you-should-approach-the-secure-development-
         
     lifecycle/#. 
 
