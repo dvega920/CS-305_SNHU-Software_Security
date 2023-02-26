@@ -44,16 +44,10 @@ I think it is good to show employers that you understand the tools and resources
 
 Cloudflare, (2023). What is an SSL Certificate?. Cloudflare. 
     
-    Retrieved February 25, 2023. https://www.cloudflare.com/learning/ssl/what-is-an-ssl-
-    
-    certificate/  
+    Retrieved February 25, 2023. https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/  
 
-Maayan, Gilad David (2019, July 12). *How You Should Approach the   
-    
-    Secure Development Lifecycle.* Dataversity. Retrieved February 22, 2023. 
-    
-    https://www.dataversity.net/how-you-should-approach-the-secure-development-
-        
-    lifecycle/#. 
+Maayan, Gilad David (2019, July 12). *How You Should Approach the Secure Development Lifecycle.* 
+
+    Dataversity. Retrieved February 22, 2023. https://www.dataversity.net/how-you-should-approach-the-secure-development-lifecycle/#. 
 
 
