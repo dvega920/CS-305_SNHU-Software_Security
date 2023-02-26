@@ -48,6 +48,8 @@ Cloudflare, (2023). What is an SSL Certificate?. Cloudflare.
 
 Maayan, Gilad David (2019, July 12). *How You Should Approach the Secure Development Lifecycle.* 
 
-    Dataversity. Retrieved February 22, 2023. https://www.dataversity.net/how-you-should-approach-the-secure-development-lifecycle/#. 
+    Dataversity. Retrieved February 22, 2023. https://www.dataversity.net/how-you-should-approach-
+    
+    the-secure-development-lifecycle/#. 
 
 
